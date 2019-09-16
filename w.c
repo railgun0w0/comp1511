@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (void)
+{
+    int x = 5, *z = &x;
+    *z = *z + 3;
+    z++;
+    x++;
+    printf("%d",x);
+    return 0;
+}
